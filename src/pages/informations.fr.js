@@ -159,6 +159,10 @@ const Informations = () => (
                     Uniformation, Atelier musicaux de Toulouse, Villes de Châlon-sur-Saône,
                     Chambéry, Domène, Lorient, Saint-Quentin
                 </p>
+  <p>
+                   L'Académie d'été du Capriccio Français est référencé dans DataDock, organisme
+                   qui, à travers 21 critères, valide la qualité et le sérieux des organismes de formation.
+                </p>
             </Section>
         </PageContent>
     </Page>
