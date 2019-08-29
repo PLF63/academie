@@ -13,10 +13,13 @@ const msg = {
     testimonials: {
         title: "TEMOIGNAGES",
         content: [
-            '"Très grande qualité des intervenants." Valérie, France',
             '"I liked the method used by the teachers, the way they helped improve the performance. The physical preparation given was very useful. I liked working with such excellent profesionals. Plus the course was very well tought and very organised." Albert, Spain',
             "\"J'ai aimé la disponibilité des enseignants, le grand nombre de cours par jour, individuels ou en commun, l'éveil corporel du matin (qui ne se fait pas du tout dans d'autres stages), l'unité de lieu qui permet de ne pas perdre de temps et donc d'avoir le temps de travailler pour soi.\" Christophe, France",
             '"Effective schedule, nice environment, high level of proficiency of the staff." Aline, Israel',
+            '"En tant que claveciniste j'ai vu ma compréhension du travail avec chanteur évoluer tout au long du stage dans toutes les formules possibles (solo/musique de chambre/ choeur) tout en ayant des cours individuels avec deux professeurs d'exception. On peut difficilement faire plus sur mesure... 
+Encore merci!!!" Camille, France',
+            '"Un stage excellent, dans un lieu charmant, animé avec professionnalisme et bon humour. Fortement recommandé. /  An excellent course, in a lovely location, led with professionalism and good humour. Highly recommended." Martin, Great Britain',
+            '"Un niveau musical pour le choeur des chanteurs amateurs, tel que les participants de l'académie aimeraient retrouver dans leur choeur habituel."',
         ],
     },
 };
