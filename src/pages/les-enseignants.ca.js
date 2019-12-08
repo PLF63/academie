@@ -9,7 +9,7 @@ const Teachers = () => (
     <Page title="Le Capriccio Français i els ensenyants de l’Acadèmia">
         <Lead>
             <p>
-                Le Capriccio Français va celebrar el seu 20è aniversari el 2015. Des de la seva
+                Le Capriccio Français celebrar el seu 25è aniversari el 2020. Des de la seva
                 creació ha donat diversos centenars de concerts. Si bé el seu repertori essencial
                 ens porta a la música del segle XVIIIè, regularment interpreten repertori clàssic i
                 romàntic: sense cap dubte que la seva Traviata amb instruments d’època va ser una
