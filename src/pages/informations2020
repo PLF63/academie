@@ -1,0 +1,126 @@
+import React from "react";
+import Helmet from "react-helmet";
+
+import Page from "../components/page";
+import LeadImage from "../components/leadImage";
+import Barcelona from "./barcelona.png";
+import Section from "../components/section";
+import {List, ListItem, H3, Link} from "../components/base";
+import PageContent from "../components/pageContent";
+import Layout from "../layouts/fr";
+
+const Informations = props => (
+    <Layout location={props.location}>
+        <Helmet>
+            <meta
+                name="keywords"
+                content="Stage de chant, stage choral, stage de chant choral, stage de direction de chœur, prise en charge AFDAS"
+            />
+        </Helmet>
+        <Page title="Informations">
+            <LeadImage src={Barcelona} alt="house" />
+            <PageContent className="edsdf">
+                <Section title="L'hébergement">
+                    <div>
+                        <p>
+                            L'Académie se déroule à la Ferme de Villefavard, un lieu dédié à la musique en Haute-Vienne.
+                            Créée en 2002, la Ferme de Villefavard en Limousin – Centre de Rencontres Artistiques, 
+                            est un projet culturel d’initiative privée, ouvert toute l’année aux professionnels de la culture 
+                            et au public. Elle propose des résidences d’artistes de haut niveau qui donnent lieu à des concerts,
+                            spectacles, enregistrements, master class.
+                             </p>
+                        <p>
+                            Cours, répétition, hébergement et restauration sont sur le même site.
+                        </p>
+                        <p>
+                            Les stagiaires sont hébergés en pension complète du dîner du dimanche
+                            23 août au petit-déjeuner du lundi 31 août(possibilité de départ le dimanche en fin de journée).
+                        </p>
+                        <p>
+                            Trois possibilités d'hébergement en pension complète sont disponibles :
+                        </p>
+                        <List>
+                            <ListItem>
+                                Chambre double avec salle de bains (deux lits simples)
+                            </ListItem>
+                            <ListItem>
+                                Chambre single avec lavabo dans la chambre et douches et toilettes
+                                partagées avec d'autres chambres
+                            </ListItem>
+                            <ListItem>
+                                Chambre triple avec lavabo dans la chambre (trois lits simples) et
+                                douches et toilettes partagées avec d'autres chambres
+                            </ListItem>
+                        </List>
+                        <p>
+                            Le linge de toilette est fourni, les draps sont changés en milieu de
+                            séjour. Les articles de toilette ne sont pas fournis.
+                        </p>
+                        
+                    
+                    </div>
+                </Section>
+                <Section title="Tarifs">
+                    <div>
+                        <p>
+                            Les frais pédagogiques sont :
+                            <List>
+                                <ListItem>
+                                    inscription indivuelle (comprenant l'adhésion à l'association) :
+                                    340 €
+                                </ListItem>
+                                <ListItem>formation professionnelle : 600 €</ListItem>
+                            </List>
+                        </p>
+                        <p>
+                            Pour les personnes accompagnant les stagiaires et hébergées par
+                            l'Académie, mais qui ne participent pas au stage, le montant de
+                            l'adhésion à l'association est de 40€.
+                        </p>
+                        <p>
+                            Les frais d'hébergement en pension complète sont les suivants :
+                        </p>
+                        <List>
+                            <ListItem>Chambre double avec salle de bains : 440 €</ListItem>
+                            <ListItem>Chambre double avec salle de bains et toilettes partagés: 440 € </ListItem>
+                            <ListItem>Chambre single douches et toilettes partagés : 420 €</ListItem>
+                            <ListItem>Chambre triple avec lavabo dans la chambre et douches et toilettes à l'extérieur : 340 €
+                            </ListItem>
+                        </List>
+                        
+                    </div>
+                </Section>
+                <Section title="Comment venir ?">
+                    <div>
+                        <H3>En train</H3>
+                        <p>
+                            Villefavard est accessible soit par la gare de La Souterraine (train direct depuis Paris-Austerlitz, 2h43 de trajet,
+                            billets à 20 €, soit par la gare de Le Dorat (TGV Paris-Montparnasse avec correspondance à Poitiers). 
+                            Nous pouvons organiser les transferts entre les gares et la Ferme de Villefavard.
+                        </p>
+                        
+                    </div>
+                </Section>
+                <Section title="Formation professionelle">
+                    <p>
+                        Les stages peuvent être pris en charge dans le cadre de la formation
+                        professionnelle. Depuis sa création l'Académie travaille avec l'AFDAS pour
+                        les professionnels intermittents du spectacle ou avec des organismes
+                        collecteurs comme Uniformation par exemple pour les salariés d'association.
+                        Nous travaillons aussi directement avec des collectivités locales pour les
+                        enseignants de conservatoire.
+                    </p>
+                    <p>
+                        Quelques unes de nos récentes références : AFDAS Paris, AFDAS Rhône-Alpes,
+                        Uniformation, Atelier musicaux de Toulouse, Villes de Châlon-sur-Saône,
+                        Chambéry, Domène, Lorient, Saint-Quentin
+                    </p>
+                </Section>
+            </PageContent>
+        </Page>
+    </Layout>
+);
+export default Informations;
+
+    © 2020 GitHub, Inc.
+    Terms
