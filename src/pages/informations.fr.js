@@ -30,7 +30,7 @@ const Informations = props => (
                             enregistrements, master class..
                         </p>
                         <p>
-                            La Ferme-modèle originelle abrite une salle de concert qui conserve
+                            La Ferme-modèle d'origine abrite une salle de concert qui conserve
                             l’esprit de la grange qu’elle a été, mais est dorénavant dotée d’une
                             acoustique exceptionnelle signée Albert Yaying Xu (Philharmonie de
                             Luxembourg, de Copenhague, Opéra de Pékin…). Cette salle sera la salle
@@ -41,8 +41,8 @@ const Informations = props => (
                             Attenants à la salle de concert, se trouvent de nombreux espaces de
                             travail et de répétition pour les résidents, ainsi que l'espace de
                             restauration. Les stagiaires sont hébergés sur le site en pension
-                            complète (du dîner du dimanche 23 juillet au petit-déjeuner du lundi 1er
-                            septembre).
+                            complète (du dîner du dimanche 23 août au petit-déjeuner du lundi 31
+                            août).
                         </p>
                         <p>
                             Le concert final ayant lieu dans l'après-midi du dimanche 30 août, les
@@ -51,11 +51,11 @@ const Informations = props => (
                             lundi 1er août. A noter : la tenue d'un concert de fin de stage dépendra
                             évidemment de l'état sanitaire et des décisions gouvernementales en
                             vigueur à ce moment-là. Il est donc possible que nous concluions notre
-                            Académie 2020 par une audition interne. .
+                            Académie 2020 par une audition sans public extérieur.
                         </p>
                         <p>
                             Quatre possibilités d'hébergement en pension complète sont disponibles
-                            dans les trois bâtiment distincts que comporte le domaine :
+                            dans les trois bâtiments distincts que comporte le domaine :
                         </p>
                         <List>
                             <ListItem>
@@ -99,9 +99,7 @@ const Informations = props => (
                             l'adhésion à l'association est de 40€.
                         </p>
                         <p>
-                            Les frais d'hébergement en pension complète sont les suivants, sachant
-                            que trois dîners dans la semaine sont libres (et donc non compris dans
-                            les frais) afin de permettre de profiter pleinement de la ville :
+                            Les frais d'hébergement en pension complète sont les suivants :
                         </p>
                         <List>
                             <ListItem>
